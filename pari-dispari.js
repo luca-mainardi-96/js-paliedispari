@@ -35,3 +35,15 @@ function somma(a, b){
 
 const sommaNumeri = somma(numeroPc, numeroUtente)
 console.log(sommaNumeri)
+
+//funzione pari dispari
+
+function isEven(){
+    if (sommaNumeri%2===0){
+        const risultato2 = 'pari'
+    } else {
+        const risultato2 = 'dispari'
+    }
+    return risultato2
+}
+
