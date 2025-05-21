@@ -23,7 +23,7 @@ console.log(numeroUtente)
 
     //scelta
 
-// const sceltaUtente = prompt('scegli tra pari o dispari')
+const sceltaUtente = prompt('scegli tra pari o dispari')
 // console.log(sceltaUtente)
 
 //funzione calcolo somma
@@ -50,5 +50,15 @@ function isEven(sommaNumeri){
 
 const risultatoFinale = isEven(sommaNumeri)
 console.log(risultatoFinale)
+
+
+//dichiarazione vincitore
+
+if (risultatoFinale === sceltaUtente){
+    console.log('Hai vinto')
+} else {
+    console.log('Ha vinto il pc')
+}
+
 
 
