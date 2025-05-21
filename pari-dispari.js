@@ -38,12 +38,17 @@ console.log(sommaNumeri)
 
 //funzione pari dispari
 
-function isEven(){
-    if (sommaNumeri%2===0){
-        const risultato2 = 'pari'
+function isEven(sommaNumeri){
+    let risultato2 = ''
+    if (sommaNumeri % 2 === 0){
+        risultato2 = 'pari'
     } else {
-        const risultato2 = 'dispari'
+        risultato2 = 'dispari'
     }
     return risultato2
 }
+
+const risultatoFinale = isEven(sommaNumeri)
+console.log(risultatoFinale)
+
 
