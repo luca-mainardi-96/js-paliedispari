@@ -1,14 +1,6 @@
-// Palindroma
-// Chiedere all’utente di inserire una parola
-// Creare una funzione per capire se la parola inserita è palindroma
-
-//richiesta all'utente
-
 let parolaUtente = prompt('Digita una parola')
 
 isPalindrome(parolaUtente)
-
-//creazione funzione
 
 function isPalindrome(parolaUtente){
     const parolaMin = parolaUtente.toLocaleLowerCase()
