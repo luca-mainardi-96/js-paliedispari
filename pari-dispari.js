@@ -17,11 +17,21 @@ console.log(numeroPc)
 //domande utente
 
     //numero utente
-
-const numeroUtente = parseInt(prompt('Digita un numero da 1 a 5'))
+const numeroUtente = 4
+// const numeroUtente = parseInt(prompt('Digita un numero da 1 a 5'))
 console.log(numeroUtente)
 
     //scelta
 
-const sceltaUtente = prompt('scegli tra pari o dispari')
-console.log(sceltaUtente)
+// const sceltaUtente = prompt('scegli tra pari o dispari')
+// console.log(sceltaUtente)
+
+//funzione calcolo somma
+
+function somma(a, b){
+    const risultato = a + b
+    return risultato
+}
+
+const sommaNumeri = somma(numeroPc, numeroUtente)
+console.log(sommaNumeri)
